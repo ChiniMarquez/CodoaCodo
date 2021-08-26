@@ -12,3 +12,49 @@ h1,
 h2 {
     text-align: center;
 }
+
+header {
+    background-image: url('../img/header.jpg');
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header h1 {
+    background-color: rgba(255, 180, 251, 0.514);
+    padding: 13px;
+    width: 250px;
+    height: 25px;
+}
+
+nav {
+    background-color: rgb(170, 151, 151);
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    left: 50px;
+}
+
+nav ol li {
+    background-color: rgb(61, 18, 18);
+    display: inline;
+    color: white;
+    padding: 015px;
+    margin: 0px 10px;
+}
+
+article {
+    padding-top: 100px;
+    background: linear-gradient(rgb(214, 125, 241), rgb(243, 182, 220));
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: white
+}
+
+nav ol li:hover {
+    background-color: violet;
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 3px 5px black;
+}
