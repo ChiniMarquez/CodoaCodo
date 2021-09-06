@@ -5,7 +5,7 @@ selector{
 */
 
 body {
-    background-color: rgb(220, 183, 255);
+    background-color: rgb(245, 223, 212);
 }
 
 h1,
@@ -15,29 +15,33 @@ h3 {
 }
 
 header {
-    background-image: url('../img/header.jpg');
-    height: 300px;
+    background-image: url('../img/portada.jpg');
+    height: 250px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+}
+
+header h1 {
+    text-align: initial;
 }
 
 header h1 {
     background-color: rgba(255, 180, 251, 0.514);
-    padding: 13px;
-    width: 250px;
-    height: 25px;
+    padding: 10px;
+    width: 350px;
+    height: 40px;
 }
 
 nav {
-    background-color: rgb(170, 151, 151);
-    height: 50px;
+    background-color: rgb(133, 0, 73);
+    height: 20px;
     position: fixed;
     top: 0px;
-    left: 50px;
+    left: 0px;
 }
 
 nav ol li {
-    background-color: rgb(61, 18, 18);
+    background-color: rgba(100, 22, 48, 0.432);
     display: inline;
     color: white;
     padding: 015px;
@@ -45,8 +49,10 @@ nav ol li {
 }
 
 article {
-    padding-top: 100px;
-    background: linear-gradient(rgb(214, 125, 241), rgb(243, 182, 220));
+    padding-top: 90px;
+    background: rgb(247, 184, 155);
+    width: 96%;
+    margin-left: 2%;
 }
 
 nav ol li a {
@@ -55,7 +61,11 @@ nav ol li a {
 }
 
 nav ol li:hover {
-    background-color: violet;
-    color: rgb(0, 0, 0);
-    box-shadow: 5px 3px 5px black;
+    background-color: rgb(180, 46, 120);
+    color: black;
+    box-shadow: 5px 3px 5px rgba(156, 10, 78, 0.644);
+}
+
+nav ol li a:hover {
+    color: rgb(255, 195, 208);
 }
