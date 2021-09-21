@@ -1,0 +1,15 @@
+#justify {
+    display: flex;
+    /*justify-content: center; para centrar los hijos*/
+    /*justify-content: flex-end; para posicionar al final*/
+    /*justify-content: flex-start; el que viene or defecto*/
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+}
+
+.primer {
+    /* width: 150px;
+    height: 150px; */
+    background-color: palevioletred;
+}
